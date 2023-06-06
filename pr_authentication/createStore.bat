@@ -12,6 +12,6 @@ set VALUE=%2
 set STORE_NAME=%3
 
  
-python -c "from prkeystore import *; key_store = prkeystore(); key_store.create_key_store("""%NAME%""", """%VALUE%""", """%STORE_NAME%""" )"
+"C:\Program Files (x86)\PRTG Network Monitor\python\python.exe" -c "from prkeystore import *; key_store = prkeystore(); key_store.create_key_store("""%NAME%""", """%VALUE%""", """%STORE_NAME%""" )"
 
 echo created keystore %STORE_NAME%
